@@ -16,3 +16,5 @@ struct Recipe_List_App: App {
         }
     }
 }
+.padding()
+
