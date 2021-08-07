@@ -19,7 +19,6 @@ struct RecipeListView: View {
                     destination: RecipeDetailView(recipe:r),
                     label: {
                         
-                        // MARK: Row item
                         HStack(spacing: 20.0) {
                             Image(r.image)
                                 .resizable()

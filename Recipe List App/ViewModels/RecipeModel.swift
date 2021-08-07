@@ -12,7 +12,6 @@ class RecipeModel: ObservableObject {
     
     init() {
         
-        // Create an instance of data service and get the data
         self.recipes = DataService.getLocalData()
         
         
