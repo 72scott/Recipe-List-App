@@ -16,4 +16,10 @@ class RecipeModel: ObservableObject {
         
         
     }
+    
+  static func getPortion(ingredient:Ingredient, recipeServings:Int, targetServings:Int) -> String {
+        
+        return String(targetServings)
+        
+}
 }
